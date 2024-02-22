@@ -1,32 +1,65 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/ankush/frappe-test-runner/develop/assets/ftr_logo.png" height="128">
-    <h2>Frappe Test Runner</h2>
+    <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" height="128">
+    <p>
+        Streamline your testing process with a single command or keybind.
+        <br />
+        <a href="https://empress.eco/">Documentation</a>
+        ·
+        <a href="https://github.com/empress-eco/test_runner/issues">Report Bug</a>
+        ·
+        <a href="https://github.com/empress-eco/test_runner/issues">Request Feature</a>
+    </p>
 </div>
 
-![Extension in action](https://user-images.githubusercontent.com/9079960/198000054-650ef639-ac9c-4cff-a202-459d14d6352f.gif)
+## About The Project
 
-This extension lets you run tests from Frappe app using single command or keybind.
+### Overview
+test_runner is a robust extension designed to optimize the testing process for developers. It allows you to run tests from an app using a single command or keybind, providing a more streamlined and simplified testing approach.
 
-Supported ways to run tests:
-- Run all test in open file
-- Run test nearest to the cursor in open file
+### Key Features
+- Run all tests in an open file
+- Run the test nearest to the cursor in an open file
 
-# Setup
+These features aim to reduce the time spent on testing and increase productivity.
 
-- Configure `frappeTestRunner.siteName` in settings. This site will be used by bench to run tests on.
+### Built With
+- [Node.js](https://nodejs.org/)
+
+## Getting Started
+
+### Prerequisites
+- Configure `test_runner.siteName` in settings.
+
+### Installation
+Clone the repository using the following command:
+```sh
+git clone https://github.com/empress-eco/test_runner.git
+```
+To get started, simply run the nearest or run all commands.
+```sh
+Ctrl+shift+p > run nearest or run all.
+```
 
 ## Usage
+Use the `Ctrl+shift+p` command, followed by `run nearest` or `run all` to run tests.
 
-- Ctrl+shift+p > run nearest or run all.
-- Alternatively setup keyboard shortcuts from settings.
+Additionally, you can set up keyboard shortcuts from settings for enhanced efficiency. Note: keyboard shortcuts are not set up by default.
 
-Note: keyboard shortcuts are not setup by default.
+## Contributing
+We welcome and appreciate contributions! Here's how you can contribute:
 
-## Vim user?
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Checkout the [vim plugin](https://github.com/ankush/frappe_test.vim) instead.
+## License and Acknowledgements
 
-## Credit
+### License
+This project is under the MIT License. Your contributions are also licensed under the MIT License.
 
-This is heavily inspired by [Django Test Runner](https://github.com/christherama/django-test-runner) and reuses some code from it.
+### Acknowledgements
+Special thanks to the Empress Community, the architects behind the essential tools that power this project. Their innovation and dedication have been instrumental in building the foundations and functionalities we rely on. We are profoundly grateful for their pioneering work and ongoing support.
 
+Also, a huge thank you to Django Test Runner for their inspiration and code contributions.
